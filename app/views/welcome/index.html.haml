@@ -1,1 +1,32 @@
-%h1 This is the placeholder
+#banner
+  .banner_content
+    %h1 Notebook
+    %p Your online notebook. Never forget an idea again.
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "The greatest notebook application. Period."
+    %p.name - Oleg Nikitashin
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Photo booth bushwick fashion axe affogato gentrify fanny pack. Meditation +1 XOXO, kale chips man bun kombucha messenger bag squid umami cred blue bottle forage portland poutine.
+      .callout
+        %h2 Kickstarter
+        %p Pork belly  brunch banh mi, gentrify shoreditch microdosing wolf offal meditation ramps narwhal freegan. Truffaut you probably haven't heard of them mumblecore, pop-up health goth art party hoodie. Cornhole aesthetic bespoke vinyl vice single-origin coffee.
+      .callout
+        %h2 Banjo
+        %p Bcred freegan butcher, pop-up 3 wolf moon tousled dreamcatcher intelligentsia forage 8-bit kinfolk pork belly asymmetrical. Wayfarers pork belly chicharrones, art party crucifix microdosing 8-bit man bun lumbersexual organic knausgaard viral banh mi mlkshk put a bird on it.
+
+#bottom_cta
+  .wrapper
+    %h2 For Realz!
+    %p I want you to sign up!
+    %button= link_to "Click Me!", new_user_registration_path
+
+%footer
+  %p &copy; Oleg Nikitashin
